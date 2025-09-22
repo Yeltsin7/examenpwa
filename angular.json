@@ -21,9 +21,9 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              
                 "src/favicon.ico",
-                "src/assets"
+                "src/assets",
+                "src/manifest.webmanifest"
               
             ],
             "styles": [
@@ -53,7 +53,8 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+
             },
             "development": {
               "optimization": false,
