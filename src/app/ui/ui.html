@@ -1,61 +1,80 @@
-<h1 class="text-center my-4">UI Demo</h1>
+<h1 class="text-center mt-4">UI Demo</h1>
 
 <!-- Navbar de ejemplo -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
-  <div class="container">
+  <div class="container px-4 px-lg-5">
     <a class="navbar-brand" href="#">Navbar Demo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#demoNavbar" aria-controls="demoNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDemo" aria-controls="navbarDemo" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="demoNavbar">
+    <div class="collapse navbar-collapse" id="navbarDemo">
       <ul class="navbar-nav ms-auto my-2 my-lg-0">
         <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-- Sección de Cards / Services -->
-<section class="container mb-5">
-  <h2 class="text-center mb-4">Services Demo</h2>
-  <div class="row">
-    <div class="col-lg-4 col-md-6 mb-4">
-      <div class="card h-100 text-center">
+<!-- Cards de ejemplo -->
+<div class="container px-4 px-lg-5">
+  <div class="row gx-4 gx-lg-5">
+    <div class="col-lg-4 col-md-6 mb-5">
+      <div class="card h-100">
+        <img class="card-img-top" src="assets/img/portfolio/thumbnails/1.jpg" alt="Card image cap">
         <div class="card-body">
-          <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
-          <h5 class="card-title">Sturdy Themes</h5>
-          <p class="card-text">Our themes are updated regularly to keep them bug free!</p>
-          <button class="btn btn-primary">Learn More</button>
+          <h5 class="card-title">Card Title 1</h5>
+          <p class="card-text">This is a sample card using Bootstrap styles.</p>
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6 mb-4">
-      <div class="card h-100 text-center">
+    <div class="col-lg-4 col-md-6 mb-5">
+      <div class="card h-100">
+        <img class="card-img-top" src="assets/img/portfolio/thumbnails/2.jpg" alt="Card image cap">
         <div class="card-body">
-          <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
-          <h5 class="card-title">Up to Date</h5>
-          <p class="card-text">All dependencies are kept current to keep things fresh.</p>
-          <button class="btn btn-primary">Learn More</button>
+          <h5 class="card-title">Card Title 2</h5>
+          <p class="card-text">Another card to demonstrate the UI layout.</p>
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6 mb-4">
-      <div class="card h-100 text-center">
+    <div class="col-lg-4 col-md-6 mb-5">
+      <div class="card h-100">
+        <img class="card-img-top" src="assets/img/portfolio/thumbnails/3.jpg" alt="Card image cap">
         <div class="card-body">
-          <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
-          <h5 class="card-title">Ready to Publish</h5>
-          <p class="card-text">You can use this design as is, or you can make changes!</p>
-          <button class="btn btn-primary">Learn More</button>
+          <h5 class="card-title">Card Title 3</h5>
+          <p class="card-text">You can replace these with your own content.</p>
         </div>
       </div>
     </div>
   </div>
+</div>
+
+<!-- Buttons de ejemplo -->
+<section class="text-center my-5">
+  <h2>Buttons Demo</h2>
+  <button class="btn btn-primary me-2">Primary</button>
+  <button class="btn btn-secondary me-2">Secondary</button>
+  <button class="btn btn-success me-2">Success</button>
+  <button class="btn btn-danger me-2">Danger</button>
 </section>
 
-<!-- Botones de ejemplo -->
-<div class="text-center mb-5">
-  <button class="btn btn-success btn-lg me-3">Primary Action</button>
-  <button class="btn btn-outline-secondary btn-lg">Secondary Action</button>
-</div>
+<!-- Formulario de ejemplo -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Contact Form Demo</h2>
+  <form>
+    <div class="mb-3">
+      <label for="nameDemo" class="form-label">Name</label>
+      <input type="text" class="form-control" id="nameDemo" placeholder="Enter your name">
+    </div>
+    <div class="mb-3">
+      <label for="emailDemo" class="form-label">Email</label>
+      <input type="email" class="form-control" id="emailDemo" placeholder="Enter your email">
+    </div>
+    <div class="mb-3">
+      <label for="messageDemo" class="form-label">Message</label>
+      <textarea class="form-control" id="messageDemo" rows="4" placeholder="Enter your message"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</section>
